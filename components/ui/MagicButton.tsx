@@ -2,7 +2,7 @@ import React from 'react';
 
 const MagicButton = () => {
   return (
-    <div className="relative -top-40 flex items-center justify-center min-h-screen -my-80">
+    <div className="relative flex items-center justify-center min-h-screen -my-80">
       <button className="bg-slate-800 no-underline group cursor-pointer relative rounded-full p-px text-xs font-semibold leading-6 text-white inline-block" style={{ boxShadow: '0 -10px 20px rgba(128, 0, 128, 0.5)' }}>
         <span className="absolute inset-0 overflow-hidden rounded-full">
           <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />

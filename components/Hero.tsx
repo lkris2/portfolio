@@ -1,8 +1,9 @@
+import { FaLocationArrow } from "react-icons/fa6";
 import React from 'react';
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
 import MagicButton from './ui/MagicButton';
-
+import { LampContainer } from "../components/ui/lamp";
 const Hero = () => {
   return (
     <div className='pb-20 pt-36'>
@@ -23,9 +24,12 @@ const Hero = () => {
                 <p className = "text-center md: tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
                 Whether it's crafting sleek user interfaces or developing robust backend systems, I'm all in!
                 </p>
-                <a href = "#about">
-                    <MagicButton/>
-                </a>
+                <a href="#about">
+            <MagicButton/>
+            <div> 
+              <LampContainer children = "" className="" />
+            </div>
+          </a>
             </h2>
         </div></div>
     </div>
