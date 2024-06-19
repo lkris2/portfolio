@@ -1,9 +1,9 @@
 export const gridItems = [
   {
     id: 2,
-    title: "Digital Nomad: Flexible Time Zone Communications",
-    description: "Navigating different time zones like a pro! Whether it's early morning in Chicago or late night in Tokyo, I ensure seamless communication and collaboration across the globe. Flexibility is key to driving successful projects.",
-    className: "lg:col-span md:col-span md:row-span-2 p-4 text-lg text-white",
+    title: "",
+    description: "",
+    className: "lg:col-span md:col-span md:row-span-1  text-lg text-white",
     imgClassName: "",
     titleClassName: "justify-start font-bold text-2xl mb-2",
     img: "",
@@ -11,9 +11,9 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My Tech Stack: Constantly Evolving",
-    description: "From Python and JavaScript to React and Unity 3D, my tech stack is ever-growing. I'm always on the lookout for new technologies to learn and master, ensuring I stay ahead of the curve in this fast-paced industry.",
-    className: "lg:col-span-2 md:col-span md:row-span p-4 text-lg text-white",
+    title: "",
+    description: "",
+    className: "lg:col-span md:col-span md:row-span p-4 text-lg text-white",
     imgClassName: "",
     titleClassName: "justify-center font-bold text-2xl mb-2",
     img: "",
@@ -21,32 +21,21 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech Enthusiast: Passionate Development",
-    description: "Coding is not just a job; it's my passion. From crafting intuitive user interfaces to building robust backend systems, I love every aspect of development. Let's build something amazing together!",
-    className: "lg:col-span-2 md:col-span md:row-span p-4 text-lg text-white",
+    title: "",
+    description: "",
+    className: "lg:col-span md:col-span md:row-span p-4 text-lg text-white",
     imgClassName: "",
     titleClassName: "justify-start font-bold text-2xl mb-2",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    
   },
-  {
-    id: 5,
-    title: "Currently Building: JS Animation Library",
-    description: "Pushing the boundaries of web development, I'm currently working on a JavaScript Animation library. This project combines my love for creativity and technical expertise, resulting in stunning visual effects.",
-    className: "md:col-span-3 md:row-span p-4 text-lg text-white",
-    imgClassName: "absolute right-0 md:w-96 w-6",
-    titleClassName: "justify-center md:justify-start lg:justify-center font-bold text-2xl mb-2",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
-  },
+  
   {
     id: 6,
-    title: "Tech Alchemist: Transforming Ideas into Reality",
-    description: "Blending art and science, I transform innovative ideas into practical solutions. As a tech alchemist, I strive to create impactful and meaningful digital experiences that resonate with users.",
+    title: "",
+    description: "",
     className: "md:col-span-3 md:row-span p-4 text-lg text-white",
     imgClassName: "absolute right-0 md:w-96 w-6",
     titleClassName: "justify-center md:justify-start lg:justify-center font-bold text-2xl mb-2",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    
   },
 ];

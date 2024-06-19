@@ -4,6 +4,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
 import MagicButton from './ui/MagicButton';
 import { LampContainer } from "../components/ui/lamp";
+import { WobbleCard } from "./ui/WobbleCard";
 const Hero = () => {
   return (
     <div className='pb-20 pt-36'>
@@ -26,9 +27,28 @@ const Hero = () => {
                 </p>
                 <a href="#about">
             <MagicButton/>
-            <div> 
-              <LampContainer children = "" className="" />
-            </div>
+             <div>
+              <LampContainer children = {"About me"} className="text-5xl" />
+              <div className="flex items-center space-x-6 p-6 ">
+      {/* Image with circular border */}
+      <img 
+        src="https://media.licdn.com/dms/image/D5603AQFVvl6sjjb4dA/profile-displayphoto-shrink_800_800/0/1675707827884?e=1724284800&v=beta&t=SW6y3mSqH-c4oIGz6_skGm5mYlgcKET4p5LemJQGeX0" 
+        alt="Profile" 
+        className="w-70 h-60 flex rounded-full border-4 border-gray-300" 
+      />
+      {/* Text content */}
+      <div className="">
+        <h1 className=" text-purple-800">
+          I'm a tech enthusiast and software engineering student at the University of Illinois at Chicago, originally from Bangalore, IL. I have a deep passion for FinTech, where I blend innovative solutions with financial applications to enhance user experiences and drive efficiency. My journey in technology is fueled by a fascination with financial technology and a relentless quest for knowledge. I thrive on exploring emerging fields like quantum finance and developing systems that analyze real-time data for smarter financial decisions. I transform complex problems into seamless experiences. Outside of coding, I love participating in hackathons, savoring a good cup of coffee, and exploring new cultures and places. Let's connect and create something amazing together!
+        </h1>
+      </div>
+    </div>
+              </div>
+              
+              
+
+              
+            
           </a>
             </h2>
         </div></div>
